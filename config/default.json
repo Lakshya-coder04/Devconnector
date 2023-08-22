@@ -1,5 +1,5 @@
 {
-    "mongoURI":"mongodb+srv://Lakshya-admin:Peaky@devconnector.2mucnlt.mongodb.net/?retryWrites=true&w=majority",
+    "mongoURI":"mongodb+srv://Lakshya-admin:<PASSWORD>@devconnector.2mucnlt.mongodb.net/?retryWrites=true&w=majority",
     "jwtSecret": "mysecretToken"
 }
 
