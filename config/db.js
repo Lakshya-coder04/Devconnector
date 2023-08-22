@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
 
-const config = require('config');
+//const config = require('config');
+//USING DOTENV beacsue i don't wanna expose my MongoUri to other people
+require('dotenv').config();
 
-const db = config.get('mongoURI');
+const db = process.env.MONGODB_URI;
 
 // mongoose.connect(db);
 
